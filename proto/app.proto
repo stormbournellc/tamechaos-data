@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "pkg/protobuf";
+
+// -----vvvvvvvv template place holder...def need to change
+service Template {
+  rpc CheckHealth(HealthRequest) returns (HealthReply) {}
+}
+
+message HealthRequest {
+  string wazzup = 1;
+}
+
+message HealthReply {
+  string waaazzzzup = 1;
+}

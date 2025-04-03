@@ -1,0 +1,1 @@
+## placeholder for folder where protoc will write the generated protocol buffer files
